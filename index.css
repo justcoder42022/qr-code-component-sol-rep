@@ -1,0 +1,49 @@
+:root{
+
+--White: hsl(0, 0%, 100%);
+--bg-color: hsl(212, 45%, 89%);
+--text-color: hsl(220, 15%, 55%);
+--heading-color: hsl(218, 44%, 22%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{ 
+    background-color: var(--bg-color);
+    font-family: 'Arimo', sans-serif;;
+    color:var(--text-color);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+    
+}
+
+main{
+    max-width: 375px;
+    margin:1em;
+    padding: 1em;
+    border-radius: 1em; 
+    background-color: var(--White);
+}
+ img{
+     width: 100%;
+     border-radius: 1rem;
+ }
+ h1{
+     color: var(--heading-color);
+     text-align: center;
+     padding: 1rem 0;
+ }
+ p{  
+     Font-size: 15px;
+     text-align: center;
+     padding-bottom: 2rem;
+ }
